@@ -1,0 +1,6 @@
+fixed 6 bbb 10000,000000
+hourly 5 ddd 230,000000
+fixed 3 ccc 16000,000000
+hourly 8 fff 120,000000
+fixed 14 aaa 17000,000000
+hourly 4 eee 170,000000
