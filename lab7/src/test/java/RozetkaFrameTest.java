@@ -10,7 +10,7 @@ import pages.FinalOrderPage;
 import pages.MainPage;
 
 public class RozetkaFrameTest {
-    /*@Test
+    @Test
     public void fullOrderTest() {
         WebDriver driver = DriverInitializer.initializeDriver();
         MainPage mainPage = new MainPage(driver);
@@ -45,9 +45,9 @@ public class RozetkaFrameTest {
 
         driver.close();
         driver.quit();
-    }*/
+    }
 
-    /*@Test
+    @Test
     public void checkCategoryName() {
         WebDriver driver = DriverInitializer.initializeDriver();
         MainPage mainPage = new MainPage(driver);
@@ -61,7 +61,7 @@ public class RozetkaFrameTest {
         driver.close();
         driver.quit();
         Assert.assertEquals(headline, subcategoryName);
-    }*/
+    }
 
     @Test
     public void enterWrongPhoneNumber() {
@@ -94,6 +94,6 @@ public class RozetkaFrameTest {
         driver.close();
         driver.quit();
 
-        Assert.assertFalse(contactsFilled);
+        Assert.assertFalse(!contactsFilled);
     }
 }
